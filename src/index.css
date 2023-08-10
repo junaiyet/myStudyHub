@@ -1,3 +1,21 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+h1{
+  font-size: 52px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 22px;
+}
+p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.btn-primary{
+  background: #3EBDAC;
+  color: #fff;
+  border-radius: 100px;
+  padding: 15px 28px;
+}
