@@ -1,11 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "../assets/images/logo.png";
+import "./Header.scss";
 function Header() {
   return (
     <div>
       <div className="top_header"></div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg  bg-white">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src={Logo} alt="" />
