@@ -1,12 +1,30 @@
 import "./App.css";
-import Banner  from "./Banner/Banner";
-import Header from "./Header/Header";
 
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+import Layout from "./Layout/Layout";
+import Home from "./Pages/Home";
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element:<Layout/>,children:[
+      {
+        path:'/',    
+        element:<Home/>     
+      },
+      // {
+      //   path:'/contact',
+      //   element:<Banner/>     
+      // },
+    ]
+  }
+])
 function App() {
   return (
     <>
-      <Header />
-      <Banner />
+      {/* <Header />
+      <Banner /> */}
+      <RouterProvider router={router} />
+      
     </>
   );
 }

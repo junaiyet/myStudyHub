@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Banner.scss"
-import arrowIcon from "../assets/images/icons/arrow-icon.png"
+import arrowIcon from "../../assets/images/icons/arrow-icon.png"
 function Banner() {
   const settings = {
     arrows:true,
