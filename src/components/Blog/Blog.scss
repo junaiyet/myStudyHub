@@ -1,0 +1,28 @@
+.blogBg{
+    background-color: #F1F1F1;
+    padding: 74px 0;
+    .sectionHEading{
+        text-align: left ;
+        .rectangle{
+            margin: 0;
+        }
+    }
+    .blog-item{
+        .image{
+            img{
+                width: 100%;
+            }
+        }
+        .text{
+            span{
+                display: block;
+                margin-top: 10px;
+            }
+            h3{
+                margin-top: 10px;
+                font-size: 22px;
+                font-weight: 600;
+            }
+        }
+    }
+}

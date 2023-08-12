@@ -1,0 +1,28 @@
+.testiItem{
+    .image{
+        position: relative;
+        .img{
+            width: 100%;
+        }
+        .img2{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.4);
+            cursor: pointer;
+        }
+    }
+}
+.testimonialItem {
+    width: 98% !important;
+}
+@media (max-width: 576px) { 
+    .testimonialItem {
+        width: 100% !important;
+    }
+}

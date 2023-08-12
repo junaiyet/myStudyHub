@@ -2,6 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 ul,ol{
   margin: 0;
@@ -28,4 +29,26 @@ p{
   color: #fff;
   border-radius: 100px;
   padding: 15px 28px;
+}
+.sectionHEading{
+  padding-top: 73px;
+  padding-bottom: 60px;
+  text-align: center;
+  
+}
+.sectionHEading h2{
+    font-size: 28px;
+    font-weight: 500;
+    color: #2B292A;
+}
+.sectionHEading p{
+    font-size: 20px;
+    color: #2B292A !important;
+    margin-bottom: 20px;
+}
+.rectangle{
+  width: 74px;
+  height: 3px;
+  background: #3EBDAC;
+  margin: 0 auto;
 }

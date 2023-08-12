@@ -8,6 +8,9 @@ import YouTube from "../../assets/images/icons/YouTube.svg"
 function Footer() {
   return (
     <div>
+        <div className="map">
+   
+        </div>
         <div className="footerBg">
             <div className="container">
         <div className="row">
