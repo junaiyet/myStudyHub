@@ -4,7 +4,7 @@ import booknow from "../../assets/images/booknow.png"
 import arrowIcon from "../../assets/images/icons/arrow-icon.png"
 function BookNow() {
   return (
-    <div>
+    <div id="StudyAbroad">
         <div className="sectionHEading">
             <h2>Study Abroad free Assessment</h2>
                <p>Fill in your details below to get a personalised advice</p>

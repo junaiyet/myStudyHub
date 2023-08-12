@@ -7,7 +7,7 @@ import mail from "../../assets/images/icons/mail.png"
 import map from "../../assets/images/icons/map.png"
 function Contact() {
   return (
-    <div>
+    <div id="contact">
     <div className="sectionHEading">
         <h2>Get In Touch With Us</h2>
            <p>Please leave a message if you have any question or experiencing any <br /> diffculty using our webs.Our team will get back to you shortly.</p>

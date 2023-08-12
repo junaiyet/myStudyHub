@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
-    <div>
+    <header>
       <div className="top_header"></div>
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
@@ -16,16 +16,16 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Study Abroad</Nav.Link>
-            <Nav.Link href="#home">Courses</Nav.Link>
-            <Nav.Link href="#home">Why My StudyHut</Nav.Link>
-            <Nav.Link href="#home">Contuct Us</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="#StudyAbroad" contact>Study Abroad</Nav.Link>
+            <Nav.Link href="#">Courses</Nav.Link>
+            <Nav.Link href="#">Why My StudyHut</Nav.Link>
+            <Nav.Link href="#contact">Contuct Us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
+    </header>
   );
 }
 
